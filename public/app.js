@@ -9,4 +9,5 @@ app.use(express.json());
 //routes
 app.use('/api/v1/clicks', require('./routes/clicks'))
 app.use('/api/v1/files',require('./routes/files'))
+app.use('/api/v1/subs',require('./routes/subs'))
 module.exports = app;
